@@ -1,5 +1,9 @@
-@import '~bootstrap/scss/bootstrap';
+@use 'abstracts/all' as a;
 
-body{
-    background-color: red;
-}
+@use 'base/all' as b;
+
+@use 'components/all' as c;
+
+@use 'layout/all' as d;
+
+@use 'sections/all' as e;

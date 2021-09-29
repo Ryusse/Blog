@@ -1,0 +1,14 @@
+.layout{
+
+    display: grid;
+    grid-template-columns: 10rem 5vw 1fr 5vw;
+    grid-template-rows: 1fr 5rem;
+    grid-template-areas: 
+        "Navbar    .    Section   .  " 
+        "Navbar  Footer Footer Footer";
+}
+
+
+.section{
+    grid-area: Section;
+}

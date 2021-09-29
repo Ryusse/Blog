@@ -1,0 +1,39 @@
+
+
+.nav{
+    grid-area: Navbar;
+
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding: 1.5rem;
+
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+    gap: 3.5rem;
+
+    &__logo{
+
+    }
+
+    &__list{
+
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    &__link{
+        text-decoration: none;
+    }
+
+    &__social-links{
+
+    }
+}
